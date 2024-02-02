@@ -10,17 +10,17 @@ class ChartScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return const Column(
       children: [
-        const SizedBox(
+        SizedBox(
           height: 40,
           child: SpendingTypes(),
         ),
         Expanded(
           child: Padding(
-            padding: const EdgeInsets.all(16.0),
+            padding: EdgeInsets.all(16.0),
             child: Column(
-              children: const [
+              children: [
                 SpendingSummary(),
                 SizedBox(height: 12),
                 Expanded(child: SpendingChart()),

@@ -22,8 +22,8 @@ class CustomHeader extends StatelessWidget {
         ),
         GestureDetector(
           onTap: onPressed,
-          child: Row(
-            children: const [
+          child: const Row(
+            children: [
               Text(
                 'See all',
                 style: TextStyle(fontSize: 12, color: Colors.black38),

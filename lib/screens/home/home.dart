@@ -35,15 +35,15 @@ class _HomePageState extends State<HomePage> {
             padding: EdgeInsets.all(8.0),
             child: CircleAvatar(
               foregroundImage: AssetImage('assets/images/mahdi.jpg'),
-              child: Text('A'),
               backgroundColor: Colors.transparent,
+              child: Text('A'),
             ),
           )
         ],
       ),
       body: IndexedStack(
         index: selectedIndex,
-        children: [
+        children: const [
           MainScreen(),
           ChartScreen(),
         ],

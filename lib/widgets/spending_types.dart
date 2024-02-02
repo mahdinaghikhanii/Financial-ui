@@ -38,7 +38,6 @@ class _SpendingTypeSelector extends StatelessWidget {
   Widget build(BuildContext context) {
     return OutlinedButton(
       onPressed: onPressed,
-      child: Text(text),
       style: OutlinedButton.styleFrom(
         primary: selected ? Colors.black : Colors.grey,
         backgroundColor: selected ? const Color(0xFFF5FFA3) : null,
@@ -48,6 +47,7 @@ class _SpendingTypeSelector extends StatelessWidget {
           ),
         ),
       ),
+      child: Text(text),
     );
   }
 }

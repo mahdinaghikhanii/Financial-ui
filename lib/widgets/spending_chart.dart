@@ -25,10 +25,10 @@ class _ChartHeader extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        Expanded(
+        const Expanded(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
-            children: const [
+            children: [
               Text(
                 'Expenditures Chart',
                 style: TextStyle(fontWeight: FontWeight.bold),

@@ -5,10 +5,10 @@ class TotalSpending extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return const Column(
       children: [
         Row(
-          children: const [
+          children: [
             Expanded(
               child: Text(
                 'Total Expenditures',
@@ -21,9 +21,9 @@ class TotalSpending extends StatelessWidget {
             ),
           ],
         ),
-        const SizedBox(height: 8),
+        SizedBox(height: 8),
         Row(
-          children: const [
+          children: [
             Expanded(
               child: Text(
                 'Taxes',

@@ -13,7 +13,6 @@ class CustomCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      child: child,
       color: color,
       elevation: 0,
       shape: const RoundedRectangleBorder(
@@ -21,6 +20,7 @@ class CustomCard extends StatelessWidget {
       ),
       margin: EdgeInsets.zero,
       clipBehavior: Clip.antiAlias,
+      child: child,
     );
   }
 }

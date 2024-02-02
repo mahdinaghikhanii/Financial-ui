@@ -19,7 +19,7 @@ class CurrentBalance extends StatelessWidget {
       child: DecoratedBox(
         decoration: const BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/images/duck.jpg'),
+            image: AssetImage('assets/images/mahdi.jpg'),
             fit: BoxFit.cover,
             opacity: 0.2,
           ),

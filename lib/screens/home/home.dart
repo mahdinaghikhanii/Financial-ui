@@ -19,7 +19,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'Pay.Co',
+          'Mahdi naghikhani',
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
         centerTitle: true,

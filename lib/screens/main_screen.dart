@@ -15,14 +15,13 @@ class MainScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            Divider(height: 24),
             CurrentBalance(
-              balance: '123,000.65',
+              balance: '245,000.65',
               growth: '1.76',
             ),
-            SizedBox(height: 12),
+            SizedBox(height: 30),
             Transactions(),
-            SizedBox(height: 12),
+            SizedBox(height: 20),
             MyGoals(),
           ],
         ),

@@ -16,7 +16,7 @@ class Transactions extends StatelessWidget {
         ),
         ...latestTransactions
             .map((e) => Padding(
-                  padding: const EdgeInsets.symmetric(vertical: 8.0),
+                  padding: const EdgeInsets.symmetric(vertical: 10.0),
                   child: Transaction(
                     title: e['name'],
                     time: e['date'],
